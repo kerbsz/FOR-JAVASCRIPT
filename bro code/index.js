@@ -16,7 +16,7 @@ mySubmit.onclick = function(){
         result.textContent = `You are a minorr`;
         alert("You are minor  you need drivings license")
     }else{
-        result.textContent = `You cannot drive`;
+        result.textContent = `You Will be Arrested`;
         alert("You cannot drive")
     }
     
