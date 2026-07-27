@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+}
+#container{
+    background-color: aqua;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+#container input{
+    background-color: rgba(255, 255, 255, 0.925);
+    border: 1px solid black;
+    border-radius: 5px;
+    display: block;
+    padding: 5px;
+    margin: 3px;
+    font-weight:bolder;
+}
+#container input:hover{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+#container button:hover{
+    background-color: rgb(255, 255, 255);
+    font-size: 15px;
+}
+
+#containerB{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-family: monospace;
+    align-items: center;
+
+}
+#container input,select,label{
+    padding: 5px;
+}
+#containerB1{
+    position: relative;
+}
+#containerB1 input,label{
+    display: inline-block;
+}
+#submitInfo{
+    background-color: rgba(255, 255, 255, 0.598);
+    font-size: 15px;
+    border-radius: 5px;
+}
+#containerC{
+    
+    display: inline-flex;
+    position: relative;
+
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    font-family: monospace;
+    font-weight:bold;
+}
+#containerC p{
+    display: block;
+}
+
+

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+        JavaScript Tutorial #15: DOM Events & Forms 
+
+        <br><br>
+        <button id="btnClickme" onclick="btnOnClick()" on>CLICK ME</button>
+
+        <h3 id="h3hover" 
+        onmouseover="h3Hover()" 
+        onmouseout="h3UnHover()" 
+        >Hover ME</h3>
+
+        <br>
+        <center>
+            <label for="input1">Input1: </label>
+            <input type="text" id="input1" onfocus="inputFocus()" onblur="inputblur()"> 
+            <hr>
+            <label for="input2">Input2: </label>
+            <input type="text" id="input2" onblur="inputblur()"> 
+            <br> <br>
+
+            <label for="name">Name: </label>
+            <input type="text" id="name" onchange="onChange()">
+            <p id="p1">YOUR NAME</p>
+
+        </center>
+
+        <br>
+        <div id="container">
+            <div id="container1">
+                <input id="txtEmail" type="email" placeholder="Email Address">
+                <input id="txtpass" type="password" placeholder="Password">
+                <button onclick="signIn()"> Submit </button>
+                <br><br><br>
+
+                <label for="selecGame">Select Game:</label>
+                <select id="selectGame">
+                    <option value="Valorant">Valorant</option>
+                    <option value="League Of Legends">League Of Legends</option>
+                    <option value="Need for Speed">Need for Speed</option>
+                </select>
+                <br>
+                <button onclick="getfavGames()">Submit Favorite Game</button>
+                <br><br><br><br>
+
+                <!--                            Exercise                                  -->
+                <div id="containerB">
+                    <h3>Fill in the Info!</h3>
+                    <input type="text" id="fname" placeholder="First Name">
+
+                    <input type="text" id="lname" placeholder="Last Name">
+
+                    <select name="Country" id="selectCountry">
+                        <option value="Philippines">Philippines</option>
+                        <option value="Japan">Japan</option>
+                        <option value="USA">United States of America</option>
+                    </select>
+
+                    <input type="date" id="bday">
+
+                    <div id="containerB1">
+                        <input type="radio" id="Smale" name="sex" value="Male">
+                        <label for="Smale">Male</label>
+                        
+                        <input type="radio" id="Sfemale" name="sex" value="Female">
+                        <label for="Sfemale">Female</label>
+                        <br>
+                        <input type="checkbox" id="checkAgree">
+                        <label for="checkAgree"> Agree to Privacy </label>
+                    </div>
+                    <button id="submitInfo" onclick="submit()">Submit</button>  
+                    <br>
+                </div>
+
+                <br>
+                <div id="containerC">
+                    <h3>Your Info</h3>
+                    <p id="display_info">
+                        Lorem ipsum dolor sit amet consectetur
+                    </p>
+                    <p id="display_info2">
+                        Lorem ipsum dolor sit amet consectetur, 
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </body>
+    <script src="script.js"></script>
+</html>
