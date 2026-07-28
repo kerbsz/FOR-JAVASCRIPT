@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    height: 100vh;
+    text-align: center;
+    background-color: aliceblue;
+    border: 5px solid black;
+    
+    
+}
+#container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    width:90%;
+    height: auto;
+    margin: 0 auto;
+    border: 1px solid black;
+    flex-direction: column;
+    
+    
+}
+#container label,input{
+    
+}

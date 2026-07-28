@@ -1,0 +1,12 @@
+body{
+    margin: 0;
+    text-align: center;
+}
+#desc{
+    font-size: clamp(1.8rem, 10 + 1rem,5rem);
+}
+@media (max-width:600px) {
+    h1{
+        font-size: 14px;
+    }
+}
